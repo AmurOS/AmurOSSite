@@ -1,0 +1,98 @@
+*,
+html,
+body {
+    background: rgb(20, 20, 20);
+    scroll-behavior: smooth;
+    color: #111;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.navbar {
+    background: rgb(0, 0, 0);
+    display: flex;
+    font-family: Roboto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 22px;
+}
+
+.navbar a {
+    color: white;
+    background-color: #000;
+    font-display: inherit;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.table {
+    margin-top: 10%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.btnDL {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background-color: #1ABC9C;
+    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+    transition: border .25s linear, color .25s linear, background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnDL:hover {
+    color: #fff;
+    background-color: #20D5B1;
+    border: none;
+}
+
+.btnDL:active {
+    color: #fff;
+    background-color: #179B81;
+    border: none;
+}
+
+.Lab{
+    color: white;
+    font-display: inherit;
+    text-decoration: none;
+}
+
+.octicon{
+    background-color: #000000;
+    right: 0;
+    position: absolute;
+    margin-left: 1%;
+}
+
+.md {
+    color: white;
+    font-display: inherit;
+    text-decoration: none;
+    margin-bottom: 1%;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    display: block;
+    font-family: Roboto;
+    height: 22px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.footer-text a{
+    display: block;
+    background-color: #000;
+    color: white;
+}
