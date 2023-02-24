@@ -66,6 +66,10 @@ body {
     text-decoration: none;
 }
 
+.table hr{
+    margin-top: 5%;
+}
+
 .octicon{
     background-color: #000000;
     right: 0;
