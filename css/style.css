@@ -9,56 +9,44 @@ body {
     font-size: 1rem;
 }
 
+main{
+    background-color: #000;
+}
+
+footer a{
+    text-decoration:none;
+    background-color: #000;
+}
+
 .navbar {
     background: rgb(0, 0, 0);
-    display: flex;
     font-family: Roboto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 22px;
 }
 
 .navbar a {
-    color: white;
-    background-color: #000;
-    font-display: inherit;
     text-decoration: none;
-    margin-left: 1%;
 }
 
 .table {
-    margin-top: 10%;
     left: 0;
     right: 0;
     top: 0;
 }
 
-.btnDL {
-    padding: 10px 20px;
-    text-transform: uppercase;
+.btn {
+    padding: 6px 20px;
     border: none;
     color: #fff;
-    background-color: #1ABC9C;
-    -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
-    transition: border .25s linear, color .25s linear, background-color .25s linear;
-    -webkit-font-smoothing: subpixel-antialiased;
+    background-color: #2a012e;
     text-align: center;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: --bs-border-radius;
 }
 
-.btnDL:hover {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #20D5B1;
-    border: none;
-}
-
-.btnDL:active {
-    color: #fff;
-    background-color: #179B81;
-    border: none;
+    background-color: #3a003f;
+    border-color: #3a003f;
 }
 
 .Lab{
@@ -69,13 +57,6 @@ body {
 
 .table hr{
     margin-top: 5%;
-}
-
-.octicon{
-    background-color: #000000;
-    right: 0;
-    position: absolute;
-    margin-left: 1%;
 }
 
 .md {
@@ -103,28 +84,11 @@ body {
 }
 .dev-ers a{
     color:#fff;
-    background-color: #000;;
+    background-color: #000;
 }
 img{
     left:2px;
     border-radius: 50px;    
-}
-
-footer{
-    background: rgb(0, 0, 0);
-    display: block;
-    font-family: Roboto;
-    height: 22px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-}
-
-.footer-text a{
-    display: block;
-    background-color: #000;
-    color: white;
 }
 
 @media(max-width:720px) {
@@ -133,6 +97,7 @@ footer{
         margin-right: 1%;
     }
     .dev-ers {
+        margin-top: 2%;
         margin-left: 1%;
         margin-right: 1%;
     }
