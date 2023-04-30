@@ -1,1 +1,1 @@
-# We are creating our own Russian operating system from scratch!
+# Мы создаем нашу собственную русскую операционную систему с нуля!

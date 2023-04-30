@@ -1,12 +1,18 @@
-## >Project AmurOS
-A Russian project to create its own \
-open source operating system.\
+## >Проект AmurOS
+Российский проект по созданию собственной\
+операционной системы с открытым исходным кодом.\
 \
-`You can contribute to it btw :)`
+`Кстати, вы можете внести в это свой вклад :)`
 
-Team composition:
+Состав команды:
 
-bas1c1 - team lead (kernel libraries and drivers)\
-FrostySF - programmer (kernel)\
-ProgramPyYT - programmer (graphics)\
-RedLeader167 - programmer (drivers)
+bas1c1 - team lead (библиотеки ядра и драйвера)\
+FrostySF - программист (ядро)\
+ProgramPyYT - программист (графика)\
+RedLeader167 - программист (драйвера)
+
+Данная система была написанна на языке Си и NASM.
+И мы будем не против, чтобы вы помагали нам разработке данной ОС, так как она имеет полностью открытый исходный код.
+
+AmurOS сделанна на архетектуру x86 и нет x64!
+
