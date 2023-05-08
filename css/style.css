@@ -50,7 +50,7 @@ footer a {
     background-color: #6e0000;
     text-align: center;
     cursor: pointer;
-    border-radius: --bs-border-radius;
+    margin-left: 5%;
 }
 
 .btn-primary:hover,
@@ -63,12 +63,6 @@ footer a {
     border-color: #6e0000;
 }
 
-.Lab {
-    color: white;
-    font-display: inherit;
-    text-decoration: none;
-}
-
 .table hr {
     margin-top: 5%;
 }
@@ -77,6 +71,7 @@ footer a {
     color: white;
     font-display: inherit;
     text-decoration: none;
+    margin-left: 5%;
     margin-bottom: 1%;
 }
 
@@ -84,7 +79,7 @@ footer a {
     background-color: #000;
     border-radius: 15px;
     padding-left: 10px;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-right: 15%;
 }
 
@@ -92,7 +87,7 @@ footer a {
     background-color: #000;
     border-radius: 15px;
     padding-left: 10px;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-right: 15%;
     color: #fff;
 }
