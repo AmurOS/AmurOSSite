@@ -11,12 +11,7 @@ body {
 
 /*делаю свой "scrollbar"*/
 ::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #6e0000;
-    border: 1px solid #6e0000;
+    width: 0;
 }
 
 main {
@@ -51,16 +46,6 @@ footer a {
     text-align: center;
     cursor: pointer;
     margin-left: 5%;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #6e0000;
-    border-color: #6e0000;
 }
 
 .table hr {
@@ -103,9 +88,14 @@ img {
 }
 
 @media(max-width:720px) {
+
     .prmd {
         margin-left: 1%;
         margin-right: 1%;
+    }
+
+    .btn{
+        width: 90%;
     }
 
     .dev-ers {
