@@ -3,7 +3,7 @@ html,
 body {
     background: rgb(0, 0, 0);
     scroll-behavior: smooth;
-    color: #000000;
+    color: #eee;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 1rem;
@@ -20,7 +20,7 @@ main {
 
 footer a {
     text-decoration: none;
-    background-color: #000;
+    background-color: rgb(15, 15, 15);
 }
 
 .navbar {
@@ -45,18 +45,23 @@ footer a {
     background-color: #6e0000;
     text-align: center;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .table hr {
     margin-top: 5%;
 }
 
+.title {
+    color: white;
+    margin-left: 10%;
+}
+
 .md {
     color: white;
     font-display: inherit;
     text-decoration: none;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom: 1%;
 }
 
@@ -64,16 +69,16 @@ footer a {
     background-color: #000;
     border-radius: 15px;
     padding-left: 10px;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 .dev-ers {
     background-color: #000;
     border-radius: 15px;
     padding-left: 10px;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 20%;
     color: #fff;
 }
 
@@ -89,13 +94,26 @@ img {
 
 @media(max-width:720px) {
 
+    .ver {
+        display: none
+    }
+
     .prmd {
         margin-left: 1%;
         margin-right: 1%;
     }
 
-    .btn{
+    .md {
+        margin-left: 5%;
+    }
+
+    .title {
+        margin-left: 5%;
+    }
+
+    .btn {
         width: 90%;
+        margin-left: 5%;
     }
 
     .dev-ers {
