@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
     <link rel="shortcut icon" href="assets/logo.png" type="image/png">
-    <meta name="description" content="Мы создаем нашу собственную открытую операционную систему с нуля!\n"/>
+    <meta name="description" content="Мы создаем нашу собственную открытую операционную систему с нуля!\n" />
 
     <title>AmurOS</title>
 </head>
@@ -46,20 +46,28 @@
         </nav>
         <!-- :) table :) -->
         <div id="table" class="table">
-            <zero-md class="md" src="https://raw.githubusercontent.com/AmurOS/AmurOSSite/main/README.md"> <template>
-                    <style>
-                    </style>
-                </template></zero-md>
-            <div>
-                <a class="btn btn-dark" id="get">Скачать ISO <b class="ver" id="ver"></b></a>
-                <script>
-                    $.get('https://api.github.com/repos/AmurOS/AmurOS/releases/latest', function (data) {
-                        $('#get').attr('href', data.assets[0].browser_download_url);
-                    });
-                    $.get('https://api.github.com/repos/AmurOS/AmurOS/releases/latest', function (data) {
-                        $('#ver').html(data.tag_name);
-                    });
-                </script>
+            <div class="colimg">
+                <img src="/assets/amur.jpg"
+                    alt="hol" style="width: 100%;">
+                <div class="soup">
+
+                    <zero-md class="md" src="https://raw.githubusercontent.com/AmurOS/AmurOSSite/main/README.md">
+                        <template>
+                            <style>
+                            </style>
+                        </template></zero-md>
+                    <div>
+                        <a class="btn btn-dark" id="get">Скачать ISO <b class="ver" id="ver"></b></a>
+                        <script>
+                            $.get('https://api.github.com/repos/AmurOS/AmurOS/releases/latest', function (data) {
+                                $('#get').attr('href', data.assets[0].browser_download_url);
+                            });
+                            $.get('https://api.github.com/repos/AmurOS/AmurOS/releases/latest', function (data) {
+                                $('#ver').html(data.tag_name);
+                            });
+                        </script>
+                    </div>
+                </div>
             </div>
             <hr width="100%">
             <zero-md class="md prmd" src="https://raw.githubusercontent.com/AmurOS/AmurOSSite/main/PROJECT.md">

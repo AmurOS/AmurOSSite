@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 *,
 html,
 body {
@@ -39,7 +40,23 @@ footer a {
     top: 0;
 }
 
-.btn {
+.colimg {
+    position: relative;
+    color: white;
+}
+
+.colimg img{
+    pointer-events: none;
+}
+
+.colimg .soup{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: #00000000;
+}
+
+.colimg .btn {
     padding: 6px 20px;
     border: none;
     color: #fff;
@@ -47,6 +64,11 @@ footer a {
     text-align: center;
     cursor: pointer;
     margin-left: 10%;
+}
+
+.colimg .ver {
+    color: #eee;
+    background-color: #6e0000;
 }
 
 .table hr {
@@ -84,12 +106,12 @@ footer a {
 }
 
 .dev-ers a {
-    
+
     color: #fff;
     background-color: #000;
 }
 
-img {
+.dev-ers img {
     left: 2px;
     border-radius: 50px;
 }
