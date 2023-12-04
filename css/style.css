@@ -50,9 +50,6 @@ footer a {
 }
 
 .colimg .soup{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
     background-color: #00000000;
 }
 
@@ -129,6 +126,7 @@ footer a {
 
     .md {
         margin-left: 5%;
+        margin-right: 5%;
     }
 
     .title {
@@ -136,8 +134,9 @@ footer a {
     }
 
     .btn {
-        width: 90%;
+        width:80%;
         margin-left: 5%;
+        margin-right: 5%
     }
 
     .dev-ers {
