@@ -1,147 +1,135 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 
-*,
 html,
 body {
-    background: rgb(0, 0, 0);
-    scroll-behavior: smooth;
-    color: #eee;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 1rem;
+  background: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  color: #eee;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 
 /*делаю свой "scrollbar"*/
 ::-webkit-scrollbar {
-    width: 0;
+  width: 0;
 }
 
 main {
-    background-color: #000;
+  background-color: #000;
 }
 
 footer a {
-    text-decoration: none;
-    background-color: rgb(15, 15, 15);
+  text-decoration: none;
+  background-color: rgb(15, 15, 15);
 }
 
 .navbar {
-    background: rgb(0, 0, 0);
-    font-family: Roboto;
+  background: rgb(0, 0, 0);
+  font-family: Roboto;
 }
 
 .navbar a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .table {
-    left: 0;
-    right: 0;
-    top: 0;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
-.colimg {
-    position: relative;
-    color: white;
-}
-
-.colimg img{
-    pointer-events: none;
-}
-
-.colimg .soup{
-    background-color: #00000000;
+.colimg img {
+  pointer-events: none;
 }
 
 .colimg .btn {
-    padding: 6px 20px;
-    border: none;
-    color: #fff;
-    background-color: #6e0000;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 10%;
+  padding: 6px 20px;
+  border: none;
+  color: #fff;
+  width: 20%;
+  background-color: #6e0000;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 10%;
 }
 
 .colimg .ver {
-    color: #eee;
-    background-color: #6e0000;
+  color: #eee;
+  background-color: #00000000;
 }
 
 .table hr {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .title {
-    color: white;
-    margin-left: 10%;
+  color: white;
+  margin-left: 10%;
 }
 
 .md {
-    color: white;
-    font-display: inherit;
-    text-decoration: none;
-    margin-left: 10%;
-    margin-bottom: 1%;
+  color: white;
+  font-display: inherit;
+  text-decoration: none;
+  margin-left: 10%;
+  margin-bottom: 1%;
 }
 
 .prmd {
-    background-color: #000;
-    border-radius: 15px;
-    padding-left: 10px;
-    margin-left: 10%;
-    margin-right: 20%;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-right: 20%;
 }
 
 .dev-ers {
-    background-color: #000;
-    border-radius: 15px;
-    padding-left: 10px;
-    margin-left: 10%;
-    margin-right: 20%;
-    color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-right: 20%;
+  color: #fff;
 }
 
 .dev-ers a {
-
-    color: #fff;
-    background-color: #000;
+  color: #fff;
+  background-color: #000;
 }
 
 .dev-ers img {
-    left: 2px;
-    border-radius: 50px;
+  left: 2px;
+  border-radius: 50px;
 }
 
-@media(max-width:720px) {
+@media (max-width: 720px) {
+  .ver {
+    display: none;
+  }
 
-    .ver {
-        display: none
-    }
+  .prmd {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 
-    .prmd {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+  .md {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .md {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .title {
+    margin-left: 5%;
+  }
 
-    .title {
-        margin-left: 5%;
-    }
+  .btn {
+    width: 80% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-    .btn {
-        width:80%;
-        margin-left: 5%;
-        margin-right: 5%
-    }
-
-    .dev-ers {
-        margin-top: 2%;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
+  .dev-ers {
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }

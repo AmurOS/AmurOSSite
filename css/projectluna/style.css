@@ -1,0 +1,95 @@
+:root {
+    --background: linear-gradient(156deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 83%, rgba(49,0,105,1) 100%);
+    --color-default: #0000009d;
+    --color-button: #101010;
+    --color-button-active: #202020;
+    --border-radius: 15px;
+    --backdrop-blur: 9px;
+}
+
+body {
+    background: var(--background);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.btn-luna {
+    background-color: var(--color-button);
+    border-radius: var(--border-radius);
+}
+
+.btn-luna:hover,
+.btn-luna:active,
+.btn-luna:visited {
+    background-color: var(--color-button-active) !important;
+}
+
+.card-luna {
+    background-color: var(--color-default);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(var(--backdrop-blur));
+}
+
+.card-luna img{
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.card-luna-img img{
+    border-radius: var(--border-radius);
+}
+
+.postfeed-luna img{
+    border-radius: var(--border-radius);
+}
+
+.navbar-luna{
+    background-color: var(--color-default) !important;
+}
+
+.form-control-luna{
+    background-color: var(--color-default);
+    border-radius: var(--border-radius);
+}
+
+.form-control-luna :focus{
+    background-color: #000000;
+    border: none;
+    box-shadow: none;
+}
+
+.dm-luna{
+    background-color: var(--color-default);
+    border-radius: var(--border-radius);
+}
+
+.avatar-luna{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50% !important;
+    margin-right: 5%;
+}
+
+.msg-luna img{
+    margin:5px;
+}
+
+.inrow{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    align-items: center; 
+}
+
+.msg-inrow-luna{
+    padding: 0;
+}
+
+.msg-luna{
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+.username-luna{
+    margin-right: 5px;
+}
